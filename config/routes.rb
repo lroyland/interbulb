@@ -1,4 +1,12 @@
 Interbulb::Application.routes.draw do
+  get "static_pages/home"
+  get "static_pages/doddfrank"
+  get "static_pages/immigration"
+  get "static_pages/medicare"
+  get "static_pages/obamacare"
+  get "static_pages/simpsonbowles"
+  get "static_pages/startupact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
