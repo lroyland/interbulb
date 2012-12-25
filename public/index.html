@@ -1,241 +1,281 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
+    <meta charset="utf-8">
+    <title>Interbulllllllbbbbbbbbb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
       body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
-
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
-
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
-
-
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
-
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
-
-      #footer {
-        clear: both;
-      }
-
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
-
-
-      #header {
-        background-image: url("assets/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
-
-
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
-
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
-
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
-
-
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
-
-
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
+        padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
-
-      .filename {
-        font-style: italic;
       }
     </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
-    </script>
+    
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    
+    
   </head>
+
   <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://www.ruby-doc.org/core/">Ruby core</a></li>
-              <li><a href="http://www.ruby-doc.org/stdlib/">Ruby standard library</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
 
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
 
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
+  <div class="navbar">
+  <div class="navbar-inner">
 
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
+    
+    <ul class="nav">
+     <li><img src="./IBLogoB.png" ></li>
+      <li><a href="#">Learn More</a></li>
+      <li class="divider-vertical"></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    
 
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
+    <form class="navbar-search pull-right">
+      <input type="text" class="search-query" placeholder="Honolulu">
+    </form>
 
-            <li>
-              <h2>Set up a default route and remove <span class="filename">public/index.html</span></h2>
-              <p>Routes are set up in <span class="filename">config/routes.rb</span>.</p>
-            </li>
 
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:create</code> to create your database. If you're not using SQLite (the default), edit <span class="filename">config/database.yml</span> with your username and password.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
+  </div>
+</div> 
 
-      <div id="footer">&nbsp;</div>
+    <div class="container">
+
+    
+      <!-- Example row of columns -->
+
+<div class="row">
+ 
+  
+
+ 
+
+
+    <div class="span12">
+
+
+
+
+      <ul class="nav nav-tabs pull-left">
+
+
+
+
+   <div class="span">     
+  <li class="dropdown">
+    <a class="dropdown-toggle"
+       data-toggle="dropdown"
+       href="#">
+        Economy
+        <b class="caret"></b>
+      </a>
+
+
+    <ul class="dropdown-menu">
+      <!--Links for Dropdown-->
+      <li>
+      <a href="./doddfrank.html">Dodd-Frank</a>
+      </li>
+    
+
+      <li>   
+      <a href="./simpsonbowles.html">Simpson-Bowles</a>
+      </li>
+    </ul>
+</div>
+
+<div class="span">
+  <li class="dropdown">
+    <a class="dropdown-toggle"
+       data-toggle="dropdown"
+       href="#">
+        Health Care
+        <b class="caret"></b>
+      </a>
+
+
+    <ul class="dropdown-menu">
+      <!--Links for Dropdown-->
+      <li>
+      <a href="./medicare.html">Medicare</a>
+      </li>
+
+      <li>   
+      <a href="./obamacare.html">Obamacare</a>
+      </li>
+    </ul>
+</div>
+
+<div class="span">
+  <li class="dropdown">
+    <a class="dropdown-toggle"
+       data-toggle="dropdown"
+       href="#">
+        Immigration
+        <b class="caret"></b>
+      </a>
+
+
+    <ul class="dropdown-menu">
+      <!--Links for Dropdown-->
+      <li>
+      <a href="./immigration.html">Comprehensive Immigration Reform</a>
+      </li>
+
+      <li>   
+      <a href="./startupact.html">Startup Act 2.0</a>
+      </li>
+    </ul>
+</div>
+
+
+
+
+  </li>
+
+
+
+
+
+
+</ul>
+
+
+
     </div>
+
+
+
+
+</div>
+
+
+
+<!--<div class="row"> -->
+
+
+
+      <div class="row" style="  
+      border-bottom: 1px solid #DDD;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #DDD;">
+
+<!--padding-top:25px; -->
+
+        <div class="span4" align="center">
+          <h4>Law</h4>
+        </div>
+
+        <div class="span4" align="center">
+           <h4>News</h4>
+        </div>
+
+        <div class="span4" align="center">
+          <h4>Social Media</h4>
+        </div>
+
+
+
+
+      </div>
+      
+      <div class="row">  
+        <div class="span4" >
+
+          
+
+          <dl>
+            <dt><a href=#>New Description Title</a></dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+            <dd class="pull-right"><i class="icon-plus"></i> Add to Bulb</dd>
+          </dl>
+
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+          
+          
+        </div>
+        <div class="span4">
+
+          
+
+          <dl >
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+          
+          
+       </div>
+        <div class="span4">
+
+          
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+
+          <dl>
+            <dt>New Description Title</dt>
+            <dd>This is just some longer text to follow-up the Description Title. Balls!</dd>
+          </dl>
+
+          
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; InterBulb 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
